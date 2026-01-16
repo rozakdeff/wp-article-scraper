@@ -1,0 +1,22 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+ENV/
+.env
+
+# Ide & Editor
+.vscode/
+.idea/
+
+# Scraper Outputs (Jangan upload data hasil scrape ke Git)
+outputs/
+*.csv
+*.log
+
+# OS Metadata
+.DS_Store
+Thumbs.db
