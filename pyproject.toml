@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wp-article-scraper"
+version = "0.1.0"
+dependencies = [
+    "requests",
+    "beautifulsoup4",
+    "pandas",
+]
+
+[project.scripts]
+wp-scrape = "wp_article_scraper.cli:main"
